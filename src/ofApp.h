@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxThreadedImageLoader.h"
+#include "ofxOsc.h"
 
 class ofApp : public ofBaseApp{
 
@@ -25,5 +26,8 @@ class ofApp : public ofBaseApp{
         ofxThreadedImageLoader loader;
         vector<ofImage> images;
         int total;
+    
+    ofxOscReceiver iPhoneReceiver;
+    ofxOscReceiver iPadReceiver;
 		
 };

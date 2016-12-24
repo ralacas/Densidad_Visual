@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C5B9043-3DC8-44AC-9070-C87FB4C6736F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Densidad_Visual</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6F0D823261A496550B153FD027D21AA2D0EA623</key>
+		<string>https://bitbucket.org/BossacorpCreativeStudio/densidad_visual.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Densidad_Visual.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6F0D823261A496550B153FD027D21AA2D0EA623</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/BossacorpCreativeStudio/densidad_visual.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6F0D823261A496550B153FD027D21AA2D0EA623</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6F0D823261A496550B153FD027D21AA2D0EA623</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Densidad_Visual</string>
+		</dict>
+	</array>
+</dict>
+</plist>

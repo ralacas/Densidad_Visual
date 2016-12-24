@@ -10,11 +10,31 @@ void ofApp::setup(){
 		loader.loadFromURL(images[i*2], "https://s-media-cache-ak0.pinimg.com/236x/7f/1f/bd/7f1fbd974a540a4f2d415eed7be0d5b3.jpg");
 		loader.loadFromURL(images[i*2+1], "http://4.bp.blogspot.com/-VWmHWj_hqqY/VjZPFIN46bI/AAAAAAAAAXo/wBhYEzJWcLE/s1600/78693540c51d3a11a6a3b87c9fe7ed3e.jpg");
     }
+    
+    iPhoneReceiver.setup(12345);
+    iPadReceiver.setup(12346);
+    cout << "Welcome In  \n";
+
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-   
+    // check for waiting messages
+    while(iPhoneReceiver.hasWaitingMessages()){
+        // get the next message
+        ofxOscMessage m;
+        iPhoneReceiver.getNextMessage(m);
+        
+        cout << "mensaje recivido x IPhone ->  " << m.getAddress() << "\n";
+    }
+    
+    while(iPadReceiver.hasWaitingMessages()){
+        // get the next message
+        ofxOscMessage m;
+        iPadReceiver.getNextMessage(m);
+        
+        cout << "mensaje recivido x IPad ->  " << m.getAddress() << "\n";
+    }
 
 }
 
